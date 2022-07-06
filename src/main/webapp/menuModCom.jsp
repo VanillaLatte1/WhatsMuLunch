@@ -18,8 +18,13 @@
 	System.out.println(price);
 	System.out.println(id);
 	
+	Menu mn = new Menu();
+	mn.setId(id);
+	mn.setMenu(menu);
+	mn.setPrice(price);
+	
 	MenuUpdate mu = new MenuUpdate();
-	mu.MenuMod(id, menu, price);
+	mu.MenuMod(mn);
 %>
 <h1>수정완료되었습니다.</h1>
 <a href="index.jsp">처음으로</a>
