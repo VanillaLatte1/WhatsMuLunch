@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-menu데이터를 받아서 DB에 넣어보자
+<h1>menu데이터를 받아서 DB에 넣어보자</h1><br>
 <%
 	//menuInsert.jsp에서 menu 데이터가 들어오면 
 	String menu = request.getParameter("menu");
@@ -62,5 +62,6 @@ menu데이터를 받아서 DB에 넣어보자
             }
         }
 %>
+<h2><a href = "index.jsp">처음으로</a></h2>
 </body>
 </html>
