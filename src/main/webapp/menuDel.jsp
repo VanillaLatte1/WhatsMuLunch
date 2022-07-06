@@ -28,7 +28,7 @@
         {
             document.write("<h1> 삭제하지 않습니다. </h1>")
         }
-location.href = "menuSelect.jsp"
+location.href = document.refferer;
 </script>
 </body>
 </html>
